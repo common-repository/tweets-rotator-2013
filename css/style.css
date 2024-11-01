@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.als-viewport {
+	position: relative;
+	overflow: hidden;
+	margin: 0px auto;
+}
+
+.als-wrapper {
+	position: relative;
+	list-style: none;
+}
+
+
+
+
+/************************
+ * specific als element
+ * styling for #lista2
+ ***********************/
+
+
+#tweets li,#tweets ul li {
+	margin: 10px 0px;
+	height:auto;
+	position: relative;
+	display: block;
+	cursor: pointer;
+	border-bottom: 1px dotted #ddd;
+
+	}
+.TweetAuthor  a{
+color:#000;
+font-weight:bold;
+}
+#tweets li img {
+	position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 8px;
+    max-width: 50px;
+    border: 1px solid #bbb9b9;
+    padding: 2px;
+	float: left;
+    margin-right: 10px;
+	margin-bottom:20px;
+}
+
+
+#lista2 li {
+	vertical-align: middle;
+}
+
+#tweets li {
+background: none;
+display: block !important;
+
+}
+.tweet,.timePosted ,.interact a,.tweet-content,.tweet-infos{
+margin-bottom:0px !important;
+font-size: 12px;
+    line-height: 16px
+
+}
+.widget_sabby_twitter {
+
+	background-image:url(../image/plugin_twitter_bg.png);
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
+.timePosted {
+	background: url(../image/twitter_bird_01.png) no-repeat 0 4px !important;
+	padding-left: 21px;
+    padding-bottom: 0px;
+   
+}
+.interact {
+    clear: both;
+    width: 100%;
+    display: block;
+    margin-top: 10px;
+}
+.interact a {
+    padding-right: 5px;
+    background-color: #2cc0f0;
+    color: #fff !important;
+    margin: 5px;
+    padding: 2px 5px;
+    border-radius: 5px
+}
